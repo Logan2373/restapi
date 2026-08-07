@@ -15,4 +15,9 @@ public class HelloController {
     public String hello() {
         return "Hello Kubernetes!";
     }
+    @GetMapping("/new")
+    public String new() {
+        return "Hello Loganathan - NEW!";
+    }
+
 } 
