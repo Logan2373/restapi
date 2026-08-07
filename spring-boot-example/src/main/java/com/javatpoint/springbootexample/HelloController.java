@@ -11,6 +11,11 @@ public class HelloController {
         return "Hello from Spring Boot & Killer coda ============================!";
     }
 
+    @GetMapping("/new")
+    public String home() {
+        return "Hello Logan, new settup running perfectly !!!";
+    }
+
     @GetMapping("/hello")
     public String hello() {
         return "Hello Kubernetes!";
